@@ -17,13 +17,13 @@ class gameDesk {
   }
   
   subscript(alpha: String, number: Int) -> Chessman? {
-    get {                                                     ///////// Чтобы узнавать есть ли чего 1)
+    get {
       if let chessman = self.desk[number]![alpha] {
         return chessman
       }
       return nil
     }
-    set {                                                     ////////  Для установки новой фигуры 2)
+    set {                                                    
       self.setChessman(chess: newValue!, coordinates: (alpha, number))
     }
   }

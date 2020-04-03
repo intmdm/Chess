@@ -44,6 +44,6 @@ class Chessman {
     self.coordinates = (c, n)
   }
   func kill() {
-    self.coordinates = nil
+    self.coordinates = nil  /////
   }
 }
