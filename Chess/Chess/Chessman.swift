@@ -16,7 +16,7 @@ enum ChessmanType {
   case knight
   case queen
 }
-
+ 
 enum ChessmanColor {
   case black
   case white

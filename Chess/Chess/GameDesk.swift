@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class gameDesk {
+class GameDesk {
   var desk: [Int:[String: Chessman]] = [:]
   init() {
     for i in 1...8 {
