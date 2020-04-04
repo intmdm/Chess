@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7A299284243771210071E066 /* Chessman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A299283243771210071E066 /* Chessman.swift */; };
 		7A2992862437715C0071E066 /* GameDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2992852437715C0071E066 /* GameDesk.swift */; };
+		7A2992A92438C33D0071E066 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2992A82438C33D0071E066 /* File.swift */; };
+		7A2992AB2438C3AA0071E066 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2992AA2438C3AA0071E066 /* Converter.swift */; };
 		7A501ACC2435FCD200F2871E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A501ACB2435FCD200F2871E /* AppDelegate.swift */; };
 		7A501ACE2435FCD200F2871E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A501ACD2435FCD200F2871E /* ContentView.swift */; };
 		7A501AD02435FCD500F2871E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A501ACF2435FCD500F2871E /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		7A299283243771210071E066 /* Chessman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chessman.swift; sourceTree = "<group>"; };
 		7A2992852437715C0071E066 /* GameDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDesk.swift; sourceTree = "<group>"; };
+		7A2992A82438C33D0071E066 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		7A2992AA2438C3AA0071E066 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		7A501AC82435FCD200F2871E /* Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A501ACB2435FCD200F2871E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A501ACD2435FCD200F2871E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				7A501ACD2435FCD200F2871E /* ContentView.swift */,
 				7A299283243771210071E066 /* Chessman.swift */,
 				7A2992852437715C0071E066 /* GameDesk.swift */,
+				7A2992AA2438C3AA0071E066 /* Converter.swift */,
+				7A2992A82438C33D0071E066 /* File.swift */,
 				7A501ACF2435FCD500F2871E /* Assets.xcassets */,
 				7A501AD42435FCD500F2871E /* Main.storyboard */,
 				7A501AD72435FCD500F2871E /* Info.plist */,
@@ -155,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A501ACE2435FCD200F2871E /* ContentView.swift in Sources */,
+				7A2992A92438C33D0071E066 /* File.swift in Sources */,
 				7A299284243771210071E066 /* Chessman.swift in Sources */,
 				7A2992862437715C0071E066 /* GameDesk.swift in Sources */,
+				7A2992AB2438C3AA0071E066 /* Converter.swift in Sources */,
 				7A501ACC2435FCD200F2871E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
