@@ -11,7 +11,6 @@
 		7A29929F2438A37B0071E066 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A29929E2438A37B0071E066 /* File.swift */; };
 		7A2992A12438A5FF0071E066 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2992A02438A5FF0071E066 /* Converter.swift */; };
 		7AC3605F244729380041C898 /* Chessman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC3605E244729380041C898 /* Chessman.swift */; };
-		7AC36061244729400041C898 /* Chess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC36060244729400041C898 /* Chess.swift */; };
 		7AC360632447294B0041C898 /* GameDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC360622447294B0041C898 /* GameDesk.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +32,6 @@
 		7A29929E2438A37B0071E066 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		7A2992A02438A5FF0071E066 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		7AC3605E244729380041C898 /* Chessman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chessman.swift; sourceTree = "<group>"; };
-		7AC36060244729400041C898 /* Chess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chess.swift; sourceTree = "<group>"; };
 		7AC360622447294B0041C898 /* GameDesk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDesk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,10 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				7A2992932438A34D0071E066 /* main.swift */,
-				7AC3605E244729380041C898 /* Chessman.swift */,
 				7A2992A02438A5FF0071E066 /* Converter.swift */,
+				7AC3605E244729380041C898 /* Chessman.swift */,
 				7A29929E2438A37B0071E066 /* File.swift */,
-				7AC36060244729400041C898 /* Chess.swift */,
 				7AC360622447294B0041C898 /* GameDesk.swift */,
 			);
 			path = ChessConv;
@@ -135,7 +132,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AC36061244729400041C898 /* Chess.swift in Sources */,
 				7AC3605F244729380041C898 /* Chessman.swift in Sources */,
 				7AC360632447294B0041C898 /* GameDesk.swift in Sources */,
 				7A2992942438A34D0071E066 /* main.swift in Sources */,

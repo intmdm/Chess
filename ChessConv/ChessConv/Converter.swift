@@ -24,10 +24,10 @@ class Converter {
     }
     print(result)
     
-    for var temp in result {
-      if temp.count == 2 {
-        mas.append(Chessman(type: .pawn, color: .white, figure: "♙", coordinates:(String(temp[temp.startIndex]), Int(String(temp[temp.startIndex])))))
-      }
-    }
+//    for var temp in result {
+//      if temp.count == 2 {
+//        mas.append(Chessman(type: .pawn, color: .white, figure: "♙", coordinates:(String(temp[temp.startIndex]), Int(String(temp[temp.startIndex])))))
+//      }
+//    }
   }
 }
