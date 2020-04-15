@@ -1,6 +1,6 @@
 //
 //  Converter.swift
-//  Chess
+//  ChessConv
 //
 //  Created by Даниил Максимчик on 4/4/20.
 //  Copyright © 2020 Даниил Максимчик. All rights reserved.
@@ -31,4 +31,3 @@ class Converter {
     }
   }
 }
-
