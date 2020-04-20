@@ -33,7 +33,7 @@ class GameDesk {
       desk[oldCoordinates.1]![oldCoordinates.0] = nil
     }
     self.desk[coordinates.1]![coordinates.0] = chess
-    chess.setCoordinates(char: coordinates.0, num: coordinates.1)
+    chess.setCoordinates(char: coordinates.0, int: coordinates.1)
   }
   func printDesk() {
     for x in 1...8 {

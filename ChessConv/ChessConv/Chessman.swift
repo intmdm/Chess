@@ -37,7 +37,7 @@ class Chessman {
     self.type = type
     self.color = color
     self.figureSimbol = figure
-    self.setCoordinates(char: coordinates.0, num: coordinates.1)
+    self.setCoordinates(char: coordinates.0, int: coordinates.1)
   }
   init(str: String, col: Int) {
     print(str)
@@ -51,11 +51,14 @@ class Chessman {
         self.color = .white
         self.figureSimbol = "♙"
       }
-      self.setCoordinates(char: String(str[str.startIndex]), num: Int(String(str[str.startIndex]))!)
+      
+      let first = str.first.map(String.init(_:))
+      let last = str.last.map(String.init(_:)).flatMap(Int.init(_:))
+      self.setCoordinates(char: first ?? "a", int: last ?? 1)
     }
   }
   
-  func setCoordinates(char c: String, num n: Int) {
+  func setCoordinates(char c: String, int n: Int) {
     self.coordinates = (c, n)
   }
   func kill() {

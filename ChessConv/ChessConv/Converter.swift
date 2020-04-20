@@ -11,7 +11,7 @@ import Cocoa
 
 class Converter {
   var str: String = ""
-  var mas: [Chessman] = []
+  var mas: [Chessman?] = []
   
   init(str: String) {
     self.str = str
@@ -24,8 +24,10 @@ class Converter {
     }
     print(result)
     
+
     for temp in result {
-      mas.append(Chessman(str: temp, col: 1))
+      mas.append(nil)
+      mas.append(Chessman(str: temp, col: 1))  // 1 - black, !1 - white
     }
   }
 }
