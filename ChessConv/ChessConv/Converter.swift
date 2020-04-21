@@ -24,10 +24,14 @@ class Converter {
     }
     print(result)
     
-
+    var i = 2
     for temp in result {
-      mas.append(nil)
-      mas.append(Chessman(str: temp, col: 1))  // 1 - black, !1 - white
+      if i % 2 == 0 {
+        mas.append(Chessman(str: temp, col: 0))
+      } else {
+        mas.append(Chessman(str: temp, col: 1))  // 1 - black, !1 - white
+      }
+      i += 1;
     }
   }
 }
